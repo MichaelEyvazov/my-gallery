@@ -1,0 +1,73 @@
+@import url(../lib/bs4/css/bootstrap.min.css);
+
+* {
+    transition: background-color 1s;
+}
+
+body {
+    background: lightblue url('../img/background.jpg') no-repeat fixed center; 
+}
+
+h1 {
+    color: #2196F3;
+    background-color: black;
+    text-align: center;
+}
+
+table td {
+    box-shadow: 4px 5px #141313;
+    background-color: #999393;
+}
+
+table th {
+    background-color: rgb(236, 238, 240);
+    text-align: center;
+}
+th {
+    cursor: pointer;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: rgb(102, 240, 182);
+}
+
+.modal-content {
+    box-shadow: 4px 5px #999393;
+}
+
+.btn.btn-primary.addBook {
+    margin: 2em 45%;
+}
+
+.table {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.addBook {
+    margin: 10px;
+}
+.book-details {
+    width: 17rem;
+    margin:  3em auto;
+}
+
+.card {
+    width: 18rem;
+}
+
+.btn.btn-success.btn-number {
+    background: url('../img/add.png');
+    background-repeat: no-repeat;
+    background-size: 22px 20px;
+    width: 24px;
+    padding: 10px;
+}
+.btn.btn-danger.btn-number {
+    background: url('../img/minus.png');
+    background-repeat: no-repeat;
+    background-size: 22px 20px;
+    width: 24px;
+    padding: 10px;
+}

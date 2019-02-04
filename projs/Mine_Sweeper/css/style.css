@@ -1,0 +1,136 @@
+body {
+    background-color: #20B2AA;
+    color:white;
+  }
+  
+
+img {
+    width: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    margin:1em auto;
+}
+
+table, th, td {
+    border: 1px solid #d7d3d3;
+}
+
+thead{
+    background-color: #141214;
+}
+
+td {
+    background-color: #9e9e9e;
+    transition: background-color 0.5s ease;
+}
+
+td:hover {
+    background-color: black;
+}
+tfoot{
+    background-color: #d7d3d3;
+}
+
+tfoot td:hover{
+    background-color: greenyellow; 
+}
+h2 {
+    text-align: center;
+}
+  
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.mines-count{
+    background-image: url('../img/mine.png');
+}
+.stopwatch {
+    display: inline;
+}
+
+.emoji {
+    cursor: default;
+    border-radius: 5px;
+}
+
+.hints {
+    width: 40px;
+    height: 40px;
+    background-color: #7d8282;
+}
+
+.hints img{
+    width: 20px;
+}
+
+.hint:hover{
+    background-color: #FFEB3B;
+}
+
+.main-console {
+    display: block;
+    width: 500px;
+    height: 127px;
+    position: absolute;
+    background-color: #FFEB3B;
+    color: red;
+    margin-top: 0em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-250px, -250px);
+}  
+
+
+.formLine {
+    margin:10px;
+    padding:10px;
+    background-color: cornflowerblue;
+}
+.board-container{
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: #20B2AA;
+    color: red;
+    left: 50%;
+    top: 68%;
+    transform: translate(-250px, -250px);
+}
+
+.modal {
+    display: none;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    background-color: #c44949;
+    color: beige; 
+    font-family: 'Gloria Hallelujah', cursive;
+    left: 50%;
+    top: 50%;
+    transform: translate(-250px, -250px);
+}
+  
+.modal p {
+    margin-left: 40%;
+}
+  
+.button {
+    background-color: #4CAF50;
+    padding: 0 10px 10px 10px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 12px;
+    width: 26%;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #ffffff;
+    border-radius: 5px;
+}

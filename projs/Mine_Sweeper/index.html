@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper-Game</title>
+    <meta name="author" content="Michael Eyvazov" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body onload="initGame()" oncontextmenu="return false;">
+    <h1 align="center">Mine Sweeper</h1>
+    <div class="board-container"></div>
+    <div class="main-console">
+        <h2>Choose your level</h2>
+        <button class="button" onclick="chooseLevel(this)" data-value="beginner"><abbr title="Board Size 4*4 and 2 Mines">Beginner</abbr></button>
+        <button class="button" onclick="chooseLevel(this)" data-value="medium"><abbr title="Board Size 6*6 and 5 Mines">Medium</abbr></button>
+        <button class="button" onclick="chooseLevel(this)" data-value="expert"><abbr title="Board Size 8*8 and 15 Mines">Expert</abbr></button>
+    </div>
+    <!-- <div class="hints"></div> -->
+    <script src="js/unit.js"></script>
+    <script src="js/game.js"></script> 
+</body>
+</html>
