@@ -11,7 +11,7 @@ gProjs = [
         title: 'Minesweeper game',
         decs: 'The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field',
         url: 'img/portfolio/minesweeper.png',
-        link: 'proj/Mine_Sweeper/index.html',
+        link: 'projs/Mine_Sweeper/index.html',
         publishedAt: 1548288000000,
         labels: ['Codding Accademy', 'Game']
     },
@@ -21,7 +21,7 @@ gProjs = [
         title: 'Packman Game',
         decs: 'In Pac-Man, the player makes a Pac-Man, a yellow disc, move around a maze. The goal is to eat every yellow pellet (circles) while not getting caught by the ghosts/monsters. For extra points, fruits that appear can also be eaten. When Pac-Man eats a white pellet, the ghosts turn blue and can be eaten',
         url: 'img/portfolio/packman.png',
-        link: 'proj/pacman/index.html',
+        link: 'projs/pacman/index.html',
         publishedAt: 1548028800000,
         labels: ['Codding Accademy', 'Game']
     },
@@ -31,7 +31,7 @@ gProjs = [
         title: 'Bookshop Stock Managment',
         decs: 'Stock Managment are responsible for overseeing and managing the operation of the bookstore',
         url: 'img/portfolio/bookshop.png',
-        link: 'proj/book-shop/index.html',
+        link: 'projs/book-shop/index.html',
         publishedAt: 1549152000000,
         labels: ['Codding Accademy', 'Website']
     }
@@ -78,7 +78,8 @@ function createPortfolioModal(projId) {
     $('.date').html(projPublishTime.toDateString());
     $('.client').text('Client: ' + project.labels[0]);
     $('.category').text('Category: ' + project.labels[1]);
-    $('.proj-link').attr('href',project.link);
+    $('.proj-link').attr('href',`${project.link}`);
+    $('.proj-link').html('Link to ' + project.title)
 }
 
 function sendMail() {
