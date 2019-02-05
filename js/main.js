@@ -79,7 +79,7 @@ function createPortfolioModal(projId) {
     $('.client').text('Client: ' + project.labels[0]);
     $('.category').text('Category: ' + project.labels[1]);
     $('.proj-link').attr('href',`${project.link}`);
-    $('.proj-link').html('Link to ' + project.title)
+    $('.proj-link').html('Link to ' + project.title);
 }
 
 function sendMail() {
