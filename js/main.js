@@ -78,6 +78,7 @@ function createPortfolioModal(projId) {
     $('.date').html(projPublishTime.toDateString());
     $('.client').text('Client: ' + project.labels[0]);
     $('.category').text('Category: ' + project.labels[1]);
+    //Added link to projs
     $('.proj-link').attr('href',`${project.link}`);
     $('.proj-link').html('Link to ' + project.title);
 }
