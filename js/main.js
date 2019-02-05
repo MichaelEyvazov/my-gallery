@@ -82,6 +82,6 @@ function createPortfolioModal(projId) {
 function sendMail() {
     const subject = $('.form-input').val();
     const body = $('.form-msg').val();
-    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=${subject}&body=${body}`)
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=michaeleyvazov@gmail.com&su=${subject}&body=${body}`)
 
 }
