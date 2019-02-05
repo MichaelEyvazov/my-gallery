@@ -90,7 +90,7 @@ body {
     position: fixed;
     height: 100%;
     z-index: 100000;
-    background: #3f51b5;
+    background: #d26464;
     width: 80vw;
     left: -80vw;
     transition: all 0.3s ease;
